@@ -1,0 +1,23 @@
+{% extends parent_template|default:"plasticsite/base_site.html" %}
+{% load staticfiles %}
+
+{% block title %}
+Info
+{% endblock %}
+
+{% block content %}
+  <div>
+    <h3>Plastic</h3>
+      <p>Plastic can be formed to be in any shape and form you could ever imagine. Plastics are used in multiple different thing we use in our everyday lives. Toothbrushes, car bodies, toilet seats and many other things!</p>
+      
+      <img src="{% static 'plasticwarn/plastic1.jpg' %}" alt="Picture of plastic." height="250">
+
+    <h3>What is plastic made of?</h3>
+      <p>Plastic is often talked about as one material but there are many types of plastics. Plastics are often made of polymers. Polymers are long molecules consisting of chains of carbon atom chains linked to nitrogen, hydrogen, sulphur or oxygen atoms. Polymers are chains of monomers. The word “poly” means many so polymers means many monomers. You can think of it as a traffic que, which consists of cars. The cars are the monomers and the polymer is the line consisting of the cars.
+Polymers are often very large and heave molecules that consist of thousands of monomers.
+Plastics are poor conductors and heat and electricity. They do not melt in water or easily set on fire.</p>
+   <img src="{% static 'plasticwarn/monomer.png' %}" alt="Picture of monomers." height="250"> 
+  </div>
+
+{% endblock %}
+ 

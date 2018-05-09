@@ -1,0 +1,7 @@
+{% extends parent_template|default:"base.html" %}
+
+{% load staticfiles %}
+{% block head %}
+{{ block.super }}
+<link rel="stylesheet" type="text/css" href="{% static 'plasticwarn/style.css' %}" />
+{% endblock %}
